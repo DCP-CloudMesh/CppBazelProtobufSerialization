@@ -13,18 +13,19 @@ This flag is necessary `--experimental_google_legacy_api` to use the protobuf li
 
 To build all targets, use the following command -
 ```
-bazel build --experimental_google_legacy_api
-```
-
-For granular control, use the following commands -
-```
-bazel build //target_directory:target_name --experimental_google_legacy_api
+bazel build //... --experimental_google_legacy_api
 ```
 
 To run the target, use the following command -
 ```
 ./bazel-bin/target_name
 ```
+
+*For granular build control, use the following commands -*
+```
+bazel build //target_directory:target_name --experimental_google_legacy_api
+```
+
 
 ## How to build and run with Bazel in general -
 Build using `bazel build` command -
