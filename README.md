@@ -36,3 +36,7 @@ Build using `bazel build` command -
 Execute using `./bazel-bin/target_name` command.
 
 
+## To clean the build files -
+```
+bazel clean
+```
